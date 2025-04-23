@@ -2,11 +2,6 @@ import java.util.Date;
 
 public class HotelRoomBooking {
 
-    private String namaPemesan;
-    private String nomorKTP;
-    private String nomorTelepon;
-    private String email;
-    private String jenisKelamin;
     private String jenisKamar;
     private int jumlahTamu;
     private int jumlahMalam;
@@ -22,11 +17,6 @@ public class HotelRoomBooking {
             Date tanggalCheckin, Date tanggalCheckout, boolean statusAktif,
             String kodeVoucher, boolean sudahDibayar) {
 
-        this.namaPemesan = namaPemesan;
-        this.nomorKTP = nomorKTP;
-        this.nomorTelepon = nomorTelepon;
-        this.email = email;
-        this.jenisKelamin = jenisKelamin;
         this.jenisKamar = jenisKamar;
         this.jumlahTamu = jumlahTamu;
         this.jumlahMalam = jumlahMalam;
@@ -87,30 +77,6 @@ public class HotelRoomBooking {
             return "Pasangan";
         else
             return "Keluarga";
-    }
-
-    public String getNamaPemesan() {
-        return namaPemesan;
-    }
-
-    public void setNamaPemesan(String namaPemesan) {
-        this.namaPemesan = namaPemesan;
-    }
-
-    public String getNomorKTP() {
-        return nomorKTP;
-    }
-
-    public void setNomorKTP(String nomorKTP) {
-        this.nomorKTP = nomorKTP;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getJenisKamar() {
