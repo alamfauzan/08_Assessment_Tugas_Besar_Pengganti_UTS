@@ -42,7 +42,6 @@ public class BookingInfo {
             return "Keluarga";
     }
     
-    // Getter
     public String getJenisKamar() { return jenisKamar; }
     public int getJumlahTamu() { return jumlahTamu; }
     public int getJumlahMalam() { return jumlahMalam; }
